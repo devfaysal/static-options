@@ -1,0 +1,24 @@
+{
+    "name": "devfaysal/static-options",
+    "description": "Collection of array values of different staic option for the select fields",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devfaysal\\StaticOptions\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+        "name": "Faysal Ahamed",
+        "email": "devfaysal@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
